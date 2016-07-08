@@ -8,15 +8,15 @@ console.log(duty); //'bbb'
 
 //TODO 对象的解构赋值可以很方便的将现有对象的方法赋值到某个变量
 let {log, sin, cos} = Math
-log = () => {
-  console.log('I am the log method');
-}
-sin = () => {
-  console.log('I am the sin method');
-}
-cos = () => {
-  console.log('I am the cos method');
-}
+// log = () => {
+//   console.log('I am the log method');
+// }
+// sin = () => {
+//   console.log('I am the sin method');
+// }
+// cos = () => {
+//   console.log('I am the cos method');
+// }
 console.log(Math.log); //[Function: log]
 console.log(Math.sin); //[Function: sin]
 console.log(Math.cos); //[Function: cos]
