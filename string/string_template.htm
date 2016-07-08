@@ -1,0 +1,20 @@
+<html>
+  <body>
+    <div id='container'>Hello World</div>
+  </body>
+  <script src='../node_modules/jquery/dist/jquery.min.js'></script>
+  <!-- 模板字符串 -->
+  <script>
+    let info = {
+      class: 'es6',
+      level: 'middle'
+    }
+    let x = 1
+    let y = 2
+    let fn = () => {
+      return 'This is result!'
+    }
+    $('#container').append(`<p>class: ${info.class}</p> \n <p>level: ${info.level}</p> \n ${x + y}
+      \n ${fn()}`)
+  </script>
+</html>
